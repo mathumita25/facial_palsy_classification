@@ -32,7 +32,7 @@ Electronics 2020, 9(5), 764; https://doi.org/10.3390/electronics9050764
 
 ### Balanced Training Dataset
 - **Total records used for training the random forest model**: 8,000 records (after balancing)
-- **Classes**: 4 severity levels ( made from 2,000 images each)
+- **Classes**: 4 severity levels (made from 2,000 images each)
   - Class 0: Normal
   - Class 1: Mild
   - Class 2: Moderate
@@ -47,7 +47,7 @@ Electronics 2020, 9(5), 764; https://doi.org/10.3390/electronics9050764
 - Loads 18K raw images (14K YFP + 4K CelebA)
 - Performs face detection using OpenCV
 - Extracts 68 facial landmarks using dlib
-- Computes three geometric angle features to create a dataset(csv file) that contains:
+- Computes three geometric angle features to create a dataset (csv file) that contains:
   - Eyebrow angle (asymmetry measurement)
   - Eye angle (asymmetry measurement) 
   - Mouth angle (asymmetry measurement)
@@ -98,11 +98,10 @@ Electronics 2020, 9(5), 764; https://doi.org/10.3390/electronics9050764
 !jupyter nbconvert --to notebook --execute notebooks/3_predicting_palsy_using_created_dataset.ipynb
 ```
 
-### Output Screenshots
+## Output Screenshots
 
 ![Facial Palsy Classification Output](https://github.com/mathumita25/facial_palsy_classification/blob/main/output.png?raw=true)
-```
 
+## Demo Video
 
-Youtube demo link
-https://youtu.be/vmP3umcPt6M
+[Watch the YouTube Demo](https://youtu.be/vmP3umcPt6M)
