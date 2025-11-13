@@ -98,7 +98,7 @@ Electronics 2020, 9(5), 764; https://doi.org/10.3390/electronics9050764
 !jupyter nbconvert --to notebook --execute notebooks/3_predicting_palsy_using_created_dataset.ipynb
 
 
-**"Output screenshots"**
+Output screenshots
 
-<img src="output results.png" alt="Alt text">
+![facial_palsy_classification](output results.png)
 
