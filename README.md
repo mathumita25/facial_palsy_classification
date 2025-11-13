@@ -100,3 +100,5 @@ Electronics 2020, 9(5), 764; https://doi.org/10.3390/electronics9050764
 
 **"Output screenshots"**
 
+<img src="output results.png" alt="Alt text">
+
