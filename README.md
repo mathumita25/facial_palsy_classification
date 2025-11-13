@@ -96,9 +96,23 @@ Electronics 2020, 9(5), 764; https://doi.org/10.3390/electronics9050764
 
 # Run the second notebook (model training and evaluation)
 !jupyter nbconvert --to notebook --execute notebooks/3_predicting_palsy_using_created_dataset.ipynb
+```
 
+### Output Screenshots
 
-###output screenshots
+![Facial Palsy Classification Output](https://github.com/mathumita25/facial_palsy_classification/blob/main/output.png?raw=true)
+```
 
-![facial_palsy_classification](https://github.com/mathumita25/facial_palsy_classification/blob/main/output.png?raw=true)
+## Additional Tips
+
+1. **Verify the image exists**: Make sure `output.png` is actually in your repository's main branch
+2. **Check the file name**: Ensure the filename matches exactly (case-sensitive on some systems)
+3. **Alternative URL format**: You can also use:
+```markdown
+   ![Facial Palsy Classification Output](https://raw.githubusercontent.com/mathumita25/facial_palsy_classification/main/output.png)
+```
+
+4. **Test locally**: If you're viewing on GitHub, the image should display automatically once the Markdown is correct
+
+The main issue was the malformed heading (`###` without space) which can cause Markdown parsers to not recognize it properly, potentially affecting how subsequent content is rendered.
 
